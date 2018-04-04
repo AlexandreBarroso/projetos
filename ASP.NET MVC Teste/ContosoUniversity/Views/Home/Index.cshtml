@@ -1,0 +1,103 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Contoso University</h1>
+</div>
+<div class="conteudo">
+    <div class="titulo">
+        <p class="classp">Conteúdo teste</p>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <h2>Welcome to Contoso University teste</h2>
+            <p>
+                Contoso University is a sample application that
+                demonstrates how to use Entity Framework 6 in an
+                ASP.NET MVC 5 web application.
+            </p>
+        </div>
+        <div class="col-md-4" id="idteste1">
+            <h2>Build it from scratch</h2>
+            <p>You can build the application by following the steps in the tutorial series on the ASP.NET site.</p>
+            <p><a class="btn btn-default" href="http://www.asp.net/mvc/tutorials/getting-started-with-ef-using-mvc/">See the tutorial &raquo;</a></p>
+        </div>
+        <div class="col-md-4" id="idteste2">
+            <h2>Download it</h2>
+            <p>You can download the completed project from the Microsoft Code Gallery.</p>
+            <p><a class="btn btn-default" href="http://code.msdn.microsoft.com/ASPNET-MVC-Application-b01a9fe8">Download &raquo;</a></p>
+        </div>
+    </div>
+</div>
+<a id="link_abre" href="/home">Clique Aqui</a>
+<canvas id="x" width="300" height="300"></canvas>
+<input name="login" autofocus required>
+<button id="button" onclick="printAsteristicos()">Ok</button>
+<input name="teste" type="tel" spellcheck="true" />
+<div hidden>esconde</div>
+
+<div class="loader"></div>
+
+<input name="valuex" type="range" value="12.4" step="0.2" min="0" max="20" />
+
+<audio controls="controls">
+    <source src="~/Content/audio/Sleep%20Away.mp3" type="audio/mpeg" />
+</audio>
+
+<div contenteditable="true">
+    Edite-me...
+</div>
+
+
+<script>
+
+function printAsteristicos()
+{
+  var teste = "";
+ for(i=0; i < 99 ; i++)
+ {
+    teste = "*";
+ }
+  alert(teste);
+}
+function update(stream) {
+document.getElementsByTagName('video')[0].src = stream.url;
+}
+
+
+$(document).on('click','#button', function(){
+    $('#idteste2').closest('.conteudo').find('.classp').css({"color": "red", "border": "2px solid red"});
+});
+
+$(document).ready(function() {
+	$('.popup-gallery').magnificPopup({
+		delegate: 'a',
+		type: 'image',
+		tLoading: 'Loading image #%curr%...',
+		mainClass: 'mfp-img-mobile',
+		gallery: {
+			enabled: true,
+			navigateByImgClick: true,
+			preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+		},
+		image: {
+			tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+			titleSrc: function(item) {
+				return item.el.attr('title') + '<small>by Marsel Van Oosten</small>';
+			}
+		}
+	});
+});
+</script>
+
+
+<div class="popup-gallery">
+    <a href="http://farm9.staticflickr.com/8242/8558295633_f34a55c1c6_b.jpg" title="The Cleaner"><img src="http://farm9.staticflickr.com/8242/8558295633_f34a55c1c6_s.jpg" width="75" height="75"></a>
+    <a href="http://farm9.staticflickr.com/8382/8558295631_0f56c1284f_b.jpg" title="Winter Dance"><img src="http://farm9.staticflickr.com/8382/8558295631_0f56c1284f_s.jpg" width="75" height="75"></a>
+    <a href="http://farm9.staticflickr.com/8225/8558295635_b1c5ce2794_b.jpg" title="The Uninvited Guest"><img src="http://farm9.staticflickr.com/8225/8558295635_b1c5ce2794_s.jpg" width="75" height="75"></a>
+    <a href="http://farm9.staticflickr.com/8383/8563475581_df05e9906d_b.jpg" title="Oh no, not again!"><img src="http://farm9.staticflickr.com/8383/8563475581_df05e9906d_s.jpg" width="75" height="75"></a>
+    <a href="http://farm9.staticflickr.com/8235/8559402846_8b7f82e05d_b.jpg" title="Swan Lake"><img src="http://farm9.staticflickr.com/8235/8559402846_8b7f82e05d_s.jpg" width="75" height="75"></a>
+    <a href="http://farm9.staticflickr.com/8235/8558295467_e89e95e05a_b.jpg" title="The Shake"><img src="http://farm9.staticflickr.com/8235/8558295467_e89e95e05a_s.jpg" width="75" height="75"></a>
+    <a href="http://farm9.staticflickr.com/8378/8559402848_9fcd90d20b_b.jpg" title="Who's that, mommy?"><img src="http://farm9.staticflickr.com/8378/8559402848_9fcd90d20b_s.jpg" width="75" height="75"></a>
+</div>
