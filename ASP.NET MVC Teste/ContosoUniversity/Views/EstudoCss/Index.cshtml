@@ -57,18 +57,32 @@
 
 <script>
 
+<<<<<<< HEAD
     $('#saudacao').on("click", function () {
         $("#saudacao").toggle(3000);
     });
 
     function atualizarSaudacao() {
 
+=======
+    function mensagemAlert(msg) {
+        alert(msg);
+    }
+
+    $('#saudacao').on("click", function () {
+        $("#saudacao").toggle(3000);
+    });
+
+    function atualizarSaudacao() {
+
+>>>>>>> Tarefa1
         var saudacao = document.getElementById("saudacao");
         if (localStorage.nome) {
             saudacao.innerHTML = "Olá, " + localStorage.nome;
         } else {
             saudacao.innerHTML = "";
         }
+<<<<<<< HEAD
 
 
     };
@@ -87,6 +101,27 @@
 
     $(document).ready(function () {
 
+=======
+
+
+    };
+
+
+    $("#botaoEnviar").on("click", function () {
+        var campoNome = document.getElementById("campoNome");
+        localStorage.nome = campoNome.value;
+        atualizarSaudacao();
+
+    });
+
+    $("#botaoLimpar").on("click", function () {
+        localStorage.removeItem("nome");
+        atualizarSaudacao();
+    });
+
+    $(document).ready(function () {
+
+>>>>>>> Tarefa1
         /* fadeIn => Mostra um elemento tornando ele opaco quando este estiver oculto 
         parametros em milisegundos podemos dá velocidade ao efeito.
         */
