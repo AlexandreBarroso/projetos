@@ -33,7 +33,7 @@
 <a id="link_abre" href="/home">Clique Aqui</a>
 <canvas id="x" width="300" height="300"></canvas>
 <input name="login" autofocus required>
-<button id="button" onclick="printAsteristicos()">Ok</button>
+<button id="button" onclick="Stringsteste()">Ok</button>
 <input name="teste" type="tel" spellcheck="true" />
 <div hidden>esconde</div>
 
@@ -56,7 +56,39 @@ function update(stream) {
 document.getElementsByTagName('video')[0].src = stream.url;
 }
 
+function percorrendoArray() {
+    var nomes = ["ale", "mar","pedro"];
+    //nomes[nomes.length] = "marcia";
+    nomes.push("marcia");
 
+     for (var i = 0; i < nomes.length ; i++) {
+        console.log(nomes[i]);
+    }
+}
+
+function Stringsteste() {
+    var frase = "frase de teste para estudo javascript";
+    //remove caracteres de acordo com a posição definida
+    var result1 = frase.slice(1, 9);
+    // recupera o caracter deacordo com a posição 
+    var result2 = frase.charAt(0).toLocaleUpperCase();
+    var result3 = frase.split("de");
+     
+    alert(result1 + "/" + result2 + "/" + result3);
+}
+
+
+function ObjectionJason() {
+    
+    var vazio = {};
+    var vazio = {
+        sigla: 'Al',
+        nome: 'Alexandre'
+    };
+
+    alert(vazio.sigla);
+    alert(vazio.nome);  
+}
 $(document).on('click','#button', function(){
     $('#idteste2').closest('.conteudo').find('.classp').css({"color": "red", "border": "2px solid red"});
 });

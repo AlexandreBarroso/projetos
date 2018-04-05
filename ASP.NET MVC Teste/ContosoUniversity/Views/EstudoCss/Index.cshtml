@@ -3,11 +3,110 @@
     ViewBag.Title = "Index";
 }
 
-<body>
-      <div id="div1"></div>
-      <div id="div2"></div>
-      <div id="div3"></div>
-      <div id="div4"></div>
-      <div id="div5"></div>
-    
+<head>
+    <meta http -equiv="Content -Type" content="text/html; charset=UTF -8">
+    <title>K19 - JavaScript </title>
+    <style>
+        body {
+            width: 2000px;
+            height: 2000px;
+        }
+
+        div {
+            width: 200px;
+            height: 200px;
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body onresize="resize()" onscroll="scroll()">
+    <form>
+        <label for="campo-nome">Nome:</label>
+        <input id="campo-nome" type="password" >
+    </form>
+    <div></div>
 </body>
+
+<script>
+        window.onload = function (event){
+
+        console.log(" documento carregado ");
+
+        var input = document.getElementById ("campo-nome");
+
+        input.onfocus = function() {
+            console.log("focus");
+        };
+
+        input.addEventListener("change", function() {
+            console.log("change");
+        });
+
+        input.onblur = function() {
+            console.log("blur");
+        };
+
+        input.onselect = function() {
+            console.log("select");
+        };
+
+        input.onkeydown = function(e) {
+            console.log("keydown");
+        };
+
+        input.onkeypress = function(e) {
+            console.log("keypress");
+            alert(e.key);
+        };
+
+        input.onkeyup = function() {
+            console.log("keyup");
+        };
+
+        var div = document.querySelector("div");
+
+        div.onmousedown = function() {
+            console.log(" mousedown ");
+        };
+
+        div.onmouseup = function() {
+            console.log("mouseup");
+        };
+
+        div.onclick = function () {
+            console.log("click");
+        };
+
+        div.ondblclick = function() {
+            console.log("dblclick");
+        };
+
+        div.onmousemove = function(event) {
+            var x = event.clientX;
+            var y = event.clientY;
+            console.log(" mousemove : (" + x + ", " + y +")");
+        };
+
+        div.onmouseover = function() {
+            console.log("mouseover");
+        };
+
+        div.onmouseout = function() {
+            console.log("mouseout");
+        };
+    };
+
+    function resize () {
+        var w = window.outerWidth;
+        var h = window.outerHeight;
+        console.log("resize(" + w + ", " + h + ")");
+    }
+
+    function scroll() {
+        var x = window.pageXOffset;
+        var y = window.pageYOffset;
+
+        console.log("scroll(" + x + ", " + y + ")");
+    }
+</script>
