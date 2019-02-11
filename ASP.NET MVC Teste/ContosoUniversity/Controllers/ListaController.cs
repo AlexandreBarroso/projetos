@@ -13,5 +13,15 @@ namespace ContosoUniversity.Controllers
         {
             return View();
         }
+
+        public ActionResult ListaAlunos()
+        {
+            return View();
+        }
+
+        public ActionResult ListaProfessores()
+        {
+            return View();
+        }
     }
 }
