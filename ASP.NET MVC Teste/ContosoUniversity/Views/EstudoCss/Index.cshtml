@@ -57,6 +57,10 @@
 
 <script>
 
+    function mensagemAlert(msg) {
+        alert(msg);
+    }
+
     $('#saudacao').on("click", function () {
         $("#saudacao").toggle(3000);
     });
@@ -69,9 +73,8 @@
         } else {
             saudacao.innerHTML = "";
         }
-
-
     };
+
 
     $("#botaoEnviar").on("click", function () {
         var campoNome = document.getElementById("campoNome");
