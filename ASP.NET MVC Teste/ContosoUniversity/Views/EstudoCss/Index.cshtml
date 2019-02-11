@@ -12,101 +12,256 @@
             height: 2000px;
         }
 
-        div {
+        #saudacao {
             width: 200px;
             height: 200px;
             background-color: yellow;
         }
+        #novo {
+            width: 500px;
+            height: 500px;
+            background-color: blue;
+            border: 5px solid red;
+        }
     </style>
 </head>
 
-<body onresize="resize()" onscroll="scroll()">
-    <form>
-        <label for="campo-nome">Nome:</label>
-        <input id="campo-nome" type="password" >
-    </form>
-    <div></div>
+
+
+<body>
+    <h1> Session</h1>
+    <p id="saudacao"></p>
+    <label for="campoNome"></label>
+    <input id="campoNome" type="text" />
+    <button id="botaoEnviar">Enviar</button>
+    <button id="botaoLimpar">Limpar</button>
+
+    <p></p>
+    <p></p>
+    <!--Animações-->
+    <button id="fadeIn">fadeIn </button>
+    <button id="fadeOut">fadeOut </button>
+    <button id="fadeToggle">fadeToggle </button>
+    <button id="fadeTo1">fadeTo 0.5 </button>
+    <button id="fadeTo2">fadeTo 1.0 </button>
+    <button id="hide">hide </button>
+    <button id="show">show </button>
+    <button id="toggle">toggle </button>
+    <button id="slideDown">slideDown </button>
+    <button id="slideUp">slideUp </button>
+    <button id="slideToggle">slideToggle </button>
+    <button id="animate1">animate1 </button>
+    <button id="animate2">animate2 </button>
+    <div id="novo"></div>
 </body>
 
 <script>
-        window.onload = function (event){
 
-        console.log(" documento carregado ");
+    function mensagemAlert(msg) {
+        alert(msg);
+    }
 
-        var input = document.getElementById ("campo-nome");
+    $('#saudacao').on("click", function () {
+        $("#saudacao").toggle(3000);
+    });
 
-        input.onfocus = function() {
-            console.log("focus");
-        };
+    function atualizarSaudacao() {
 
-        input.addEventListener("change", function() {
-            console.log("change");
-        });
+        var saudacao = document.getElementById("saudacao");
+        if (localStorage.nome) {
+            saudacao.innerHTML = "Olá, " + localStorage.nome;
+        } else {
+            saudacao.innerHTML = "";
+        }
 
-        input.onblur = function() {
-            console.log("blur");
-        };
 
-        input.onselect = function() {
-            console.log("select");
-        };
-
-        input.onkeydown = function(e) {
-            console.log("keydown");
-        };
-
-        input.onkeypress = function(e) {
-            console.log("keypress");
-            alert(e.key);
-        };
-
-        input.onkeyup = function() {
-            console.log("keyup");
-        };
-
-        var div = document.querySelector("div");
-
-        div.onmousedown = function() {
-            console.log(" mousedown ");
-        };
-
-        div.onmouseup = function() {
-            console.log("mouseup");
-        };
-
-        div.onclick = function () {
-            console.log("click");
-        };
-
-        div.ondblclick = function() {
-            console.log("dblclick");
-        };
-
-        div.onmousemove = function(event) {
-            var x = event.clientX;
-            var y = event.clientY;
-            console.log(" mousemove : (" + x + ", " + y +")");
-        };
-
-        div.onmouseover = function() {
-            console.log("mouseover");
-        };
-
-        div.onmouseout = function() {
-            console.log("mouseout");
-        };
     };
 
-    function resize () {
-        var w = window.outerWidth;
-        var h = window.outerHeight;
-        console.log("resize(" + w + ", " + h + ")");
-    }
 
-    function scroll() {
-        var x = window.pageXOffset;
-        var y = window.pageYOffset;
+    $("#botaoEnviar").on("click", function () {
+        var campoNome = document.getElementById("campoNome");
+        localStorage.nome = campoNome.value;
+        atualizarSaudacao();
 
-        console.log("scroll(" + x + ", " + y + ")");
-    }
+    });
+
+    $("#botaoLimpar").on("click", function () {
+        localStorage.removeItem("nome");
+        atualizarSaudacao();
+    });
+
+    $(document).ready(function () {
+
+        /* fadeIn => Mostra um elemento tornando ele opaco quando este estiver oculto 
+        parametros em milisegundos podemos dá velocidade ao efeito.
+        */
+        $("#fadeIn").click(function () {
+            $("#novo").fadeIn(3000);
+        });
+
+        /* fadeOut => Esconde o elemento tornando ele transparente caso ele estiver visível
+            pode passar valor em milisegundos para controlar o tempo do efeito*/
+        $("#fadeOut").click(function () {
+            $("#novo").fadeOut(3000);
+        });
+
+        /* fadeToggle => Esconde ou mostra o elemento conforme o seu estado(oculto, visível)
+         pode passar valor de tempo em milisegundos para dá um efeito.
+        */
+        $("#fadeToggle").click(function () {
+            $("#novo").fadeToggle(1000);
+        });
+
+        /* fadeTo1 coloca a opcidade de acordo com o parâmetro*/
+        $("#fadeTo1").click(function () {
+            $("#novo").fadeTo("fast", 0.5);
+        });
+
+        /* fadeTo coloca a opcidade de acordo com o parâmetro*/
+        $("#fadeTo2").click(function () {
+            $("#novo").fadeTo("fast", 1.0);
+        });
+
+        /* hide => Esconde o elemento quando este estiver visível*/
+        $("#hide").click(function () {
+            $("#novo").hide();
+        });
+
+        /* show => Mostra o elemento caso esse estiver escodido */
+        $("#show").click(function () {
+            $("#novo").show();
+        });
+
+        /* toggle => Tem a animação de mostrar e esconder o elemento, 
+         pode passar parâmetro de tempo para o efeito */
+        $("#toggle").click(function () {
+            $("#novo").toggle(3000);
+        });
+
+
+        /*slideDown => tem efeito de abrir o  slide quando este 
+         estiver oculto*/
+        $("#slideDown ").click(function () {
+            $("#novo").slideDown();
+        });
+
+        /* slideUp => tem efeito de fechar o  slide quando este 
+         estiver vísivel*/
+        $("#slideUp").click(function () {
+            $("#novo").slideUp();
+        });
+
+        /* slideToggle => Faz o efeito de slide de abrir e fechar*/
+        $("#slideToggle ").click(function () {
+            $("#novo").slideToggle();
+        });
+
+        /* animate1 */
+        $("#animate1").click(function () {
+            $("#novo").animate({
+                "border -width": "5px",
+                "margin -top": "100 px"
+            });
+        });
+
+        /* animate2 */
+        $("#animate2").click(function () {
+            $("#novo").animate({
+                "border -width": "1px",
+                "margin -top": "0"
+            });
+        });
+    });
 </script>
+
+
+@*<body onresize="resize()" onscroll="scroll()">
+        <form>
+            <label for="campo-nome">Nome:</label>
+            <input id="campo-nome" type="password" >
+        </form>
+        <div></div>
+    </body>*@
+
+@*<script>
+            window.onload = function (event){
+
+            console.log(" documento carregado ");
+
+            var input = document.getElementById ("campo-nome");
+
+            input.onfocus = function() {
+                console.log("focus");
+            };
+
+            input.addEventListener("change", function() {
+                console.log("change");
+            });
+
+            input.onblur = function() {
+                console.log("blur");
+            };
+
+            input.onselect = function() {
+                console.log("select");
+            };
+
+            input.onkeydown = function(e) {
+                console.log("keydown");
+            };
+
+            input.onkeypress = function(e) {
+                console.log("keypress");
+                alert(e.key);
+            };
+
+            input.onkeyup = function() {
+                console.log("keyup");
+            };
+
+            var div = document.querySelector("div");
+
+            div.onmousedown = function() {
+                console.log("mousedown");
+            };
+
+            div.onmouseup = function() {
+                console.log("mouseup");
+            };
+
+            div.onclick = function () {
+                console.log("click");
+            };
+
+            div.ondblclick = function() {
+                console.log("dblclick");
+            };
+
+            div.onmousemove = function(event) {
+                var x = event.clientX;
+                var y = event.clientY;
+                console.log(" mousemove : (" + x + ", " + y +")");
+            };
+
+            div.onmouseover = function() {
+                console.log("mouseover");
+            };
+
+            div.onmouseout = function() {
+                console.log("mouseout");
+            };
+        };
+
+        function resize () {
+            var w = window.outerWidth;
+            var h = window.outerHeight;
+            console.log("resize(" + w + ", " + h + ")");
+        }
+
+        function scroll() {
+            var x = window.pageXOffset;
+            var y = window.pageYOffset;
+
+            console.log("scroll(" + x + ", " + y + ")");
+        }
+    </script>*@
