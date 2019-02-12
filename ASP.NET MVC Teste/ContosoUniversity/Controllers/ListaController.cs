@@ -33,5 +33,10 @@ namespace ContosoUniversity.Controllers
         {
             return View();
         }
+
+        public ActionResult ListarDiretores()
+        {
+            return View();
+        }
     }
 }
