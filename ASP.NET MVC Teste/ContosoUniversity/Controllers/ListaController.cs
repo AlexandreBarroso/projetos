@@ -23,5 +23,15 @@ namespace ContosoUniversity.Controllers
         {
             return View();
         }
+
+        public ActionResult ListarProvas()
+        {
+            return View();
+        }
+
+        public ActionResult ListarCoordenadores()
+        {
+            return View();
+        }
     }
 }
