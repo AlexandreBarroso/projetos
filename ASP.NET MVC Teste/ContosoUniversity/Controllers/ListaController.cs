@@ -38,12 +38,20 @@ namespace ContosoUniversity.Controllers
         {
             return View();
         }
+
         public ActionResult ListarTeste()
         {
             return View();
         }
+
         public ActionResult ListarTeste2()
         {
+            return View();
+        }
+
+        public ActionResult ListarTeste3()
+        {
+            //Alexandre
             return View();
         }
     }
