@@ -45,6 +45,10 @@ namespace ContosoUniversity.Controllers
             return View();
         }
 
+        public ActionResult GetMensagem() {
+            return View();
+        }
+
         protected override void Dispose(bool disposing)
         {
             db.Dispose();
