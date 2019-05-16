@@ -72,10 +72,5 @@ namespace ContosoUniversity.Controllers
             //Marcelo d2
             return View();
         }
-
-        public ActionResult TesteHotfix()
-        {
-            return View();
-        }
     }
 }
