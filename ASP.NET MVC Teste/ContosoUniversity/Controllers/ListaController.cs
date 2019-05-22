@@ -69,7 +69,7 @@ namespace ContosoUniversity.Controllers
 
         public ActionResult ListarTeste6()
         {
-            //Marcelo d2
+            //Marcia
             return View();
         }
 
@@ -80,6 +80,12 @@ namespace ContosoUniversity.Controllers
 
         public ActionResult TesteRelease()
         {
+            return View();
+        }
+
+        public ActionResult OutroTesteHotfix()
+        {
+            // Teste hotfix
             return View();
         }
     }
