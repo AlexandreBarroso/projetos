@@ -60,11 +60,5 @@ namespace ContosoUniversity.Controllers
             //Rodrig
             return View();
         }
-
-        public ActionResult ListaTeste5()
-        {
-            //Teste de commit 
-            return View();
-        }
     }
 }
