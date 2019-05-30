@@ -61,6 +61,23 @@ namespace ContosoUniversity.Controllers
             return View();
         }
 
+        public ActionResult ListarTeste5()
+        {
+            // teste stash
+            return View();
+        }
+
+        public ActionResult ListarTeste6()
+        {
+            return View();
+        }
+
+        public ActionResult ListarTeste4()
+        {
+            //Rodrigo
+            return View();
+        }
+
         public ActionResult ListarTeste5Novo()
         {
             return View();
