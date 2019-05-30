@@ -89,6 +89,11 @@ namespace ContosoUniversity.Controllers
             return View();
         }
 
+        public ActionResult TesteStashDeveloper()
+        {
+            return View();
+        }
+
         public ActionResult ListarTeste7()
         {
             return View();
