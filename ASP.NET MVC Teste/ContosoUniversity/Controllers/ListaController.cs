@@ -61,61 +61,7 @@ namespace ContosoUniversity.Controllers
             return View();
         }
 
-        public ActionResult ListarTeste5()
-        {
-            // teste stash
-            return View();
-        }
-
-        public ActionResult ListarTeste6()
-        {
-            return View();
-        }
-
-        public ActionResult ListarTeste7()
-        {
-           return View();
-        } 
-
-        public ActionResult ListarTeste8()
-        {
-            return View();
-        }
-
-        public ActionResult ListarTeste5()
-        {
-            //Marcelo
-            return View();
-        }
-
-        public ActionResult ListarTeste6()
-        {
-            //Marcia
-            return View();
-        }
-
-        public ActionResult TesteHotfix()
-        {
-            return View();
-        }
-
-        public ActionResult TesteRelease()
-        {
-            return View();
-        }
-
-        public ActionResult OutroTesteHotfix()
-        {
-            // Teste hotfix
-            return View();
-        }
-
-        public ActionResult TesteStashDeveloper()
-        {
-            return View();
-        }
-
-        public ActionResult ListarTeste7()
+        public ActionResult ListarTeste5Novo()
         {
             return View();
         }
