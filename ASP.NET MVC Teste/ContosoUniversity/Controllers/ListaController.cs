@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -68,6 +68,16 @@ namespace ContosoUniversity.Controllers
         }
 
         public ActionResult ListarTeste6()
+        {
+            return View();
+        }
+
+        public ActionResult ListarTeste7()
+        {
+           return View();
+        } 
+
+        public ActionResult ListarTeste8()
         {
             return View();
         }
