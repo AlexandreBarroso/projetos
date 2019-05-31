@@ -60,5 +60,10 @@ namespace ContosoUniversity.Controllers
             //Rodrigo
             return View();
         }
+
+        public ActionResult ListarTeste5Novo()
+        {
+            return View();
+        }
     }
 }
