@@ -62,6 +62,7 @@ namespace ContosoUniversity.Controllers
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         public ActionResult ListarTeste5Novo()
 =======
         public ActionResult ListarTeste5()
@@ -103,6 +104,8 @@ namespace ContosoUniversity.Controllers
             return View();
         }
 
+=======
+>>>>>>> tarefa1Rodrigo
         public ActionResult ListarTeste5()
         {
             // teste stash
