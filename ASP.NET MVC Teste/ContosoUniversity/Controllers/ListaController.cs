@@ -70,5 +70,9 @@ namespace ContosoUniversity.Controllers
         {
             return View();
         }
+        public ActionResult ListarTesteDesenvolvimento()
+        {
+            return View();
+        }
     }
 }
