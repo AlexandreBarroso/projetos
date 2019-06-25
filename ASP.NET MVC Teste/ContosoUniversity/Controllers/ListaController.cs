@@ -68,8 +68,7 @@ namespace ContosoUniversity.Controllers
         }
 
         public ActionResult ListarTeste6()
-<<<<<<< develop
-=======
+
         {
             return View();
         }
@@ -85,7 +84,6 @@ namespace ContosoUniversity.Controllers
         }
 
         public ActionResult TesteHotfix()
->>>>>>> Teste implementação
         {
             return View();
         }
