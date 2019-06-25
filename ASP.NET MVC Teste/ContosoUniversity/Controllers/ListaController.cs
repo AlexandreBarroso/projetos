@@ -63,6 +63,41 @@ namespace ContosoUniversity.Controllers
 
         public ActionResult ListarTeste5()
         {
+            //Marcelo
+            return View();
+        }
+
+        public ActionResult ListarTeste6()
+        {
+            //Marcia
+            return View();
+        }
+
+        public ActionResult TesteHotfix()
+        {
+            return View();
+        }
+
+        public ActionResult TesteRelease()
+        {
+            return View();
+        }
+
+        public ActionResult OutroTesteHotfix()
+        {
+            // Teste hotfix
+            return View();
+        }
+
+        public ActionResult TesteStashDeveloper()
+        {
+            return View();
+        }
+
+        public ActionResult ListarTeste7()
+        {
+            return View();
+        }
             // teste stash
             return View();
         }
@@ -75,8 +110,8 @@ namespace ContosoUniversity.Controllers
 
         public ActionResult ListarTeste7()
         {
-           return View();
-        } 
+            return View();
+        }
 
         public ActionResult ListarTeste8()
         {
@@ -84,6 +119,16 @@ namespace ContosoUniversity.Controllers
         }
 
         public ActionResult TesteHotfix()
+        {
+            return View();
+        }
+
+        public ActionResult TesteHotfixTeste()
+        {
+            return View();
+        }
+
+        public ActionResult TesteAmendFix()
         {
             return View();
         }
