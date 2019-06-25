@@ -68,6 +68,24 @@ namespace ContosoUniversity.Controllers
         }
 
         public ActionResult ListarTeste6()
+<<<<<<< develop
+=======
+        {
+            return View();
+        }
+
+        public ActionResult ListarTeste7()
+        {
+           return View();
+        } 
+
+        public ActionResult ListarTeste8()
+        {
+            return View();
+        }
+
+        public ActionResult TesteHotfix()
+>>>>>>> Teste implementação
         {
             return View();
         }
