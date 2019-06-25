@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -61,31 +61,8 @@ namespace ContosoUniversity.Controllers
             return View();
         }
 
-        public ActionResult ListarTeste5()
+        public ActionResult ListarTeste5Novo()
         {
-            //Marcelo
-            return View();
-        }
-
-        public ActionResult ListarTeste6()
-        {
-            //Marcia
-            return View();
-        }
-
-        public ActionResult TesteHotfix()
-        {
-            return View();
-        }
-
-        public ActionResult TesteRelease()
-        {
-            return View();
-        }
-
-        public ActionResult OutroTesteHotfix()
-        {
-            // Teste hotfix
             return View();
         }
     }

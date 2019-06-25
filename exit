@@ -1,0 +1,255 @@
+[33mcommit 78ffebc2226012c2f51cdbc27167e81fab1703a4[m[33m ([m[1;36mHEAD -> [m[1;32mfeature/tarefa1Rodrigo[m[33m, [m[1;31morigin/feature/tarefa1Rodrigo[m[33m)[m
+Merge: bcd5242 1a279b8
+Author: Alexandre Barroso <abarroso@zonasul.com.br>
+Date:   Fri Jun 21 09:07:55 2019 -0300
+
+    Merge remote-tracking branch 'origin/feature/tarefa1Rodrigo' into feature/tarefa1Rodrigo
+
+[33mcommit bcd5242fd5febd1b931ffa98c36d295ec47cdb80[m
+Author: Alexandre Barroso <abarroso@zonasul.com.br>
+Date:   Fri Jun 21 09:06:51 2019 -0300
+
+    Auto stash before rebase of "refs/heads/feature/tarefa1Rodrigo"
+
+[33mcommit 1a279b8e2c5d33fb8960d9e98cbb4035c847f46a[m
+Author: Alexandre Barroso <abarroso@zonasul.com.br>
+Date:   Fri May 31 13:04:14 2019 -0300
+
+    teste commit
+
+[33mcommit c02e768768178e66ece027a54985550c41b30be2[m
+Author: Alexandre Barroso <abarroso@zonasul.com.br>
+Date:   Fri May 31 10:30:02 2019 -0300
+
+    teste commit
+
+[33mcommit e73906700a5338e9c5587dd5e05a5608245c6740[m
+Author: Alexandre Barroso <abarroso@zonasul.com.br>
+Date:   Fri May 31 10:27:05 2019 -0300
+
+    Revert "teste aqui"
+    
+    This reverts commit 64af377ad515793e079652bdb4db757e274e5e18.
+
+[33mcommit 64af377ad515793e079652bdb4db757e274e5e18[m
+Author: Alexandre Barroso <abarroso@zonasul.com.br>
+Date:   Fri May 31 10:27:05 2019 -0300
+
+    teste aqui
+
+[33mcommit 9fdbe3c5b6811535b047c7df0a77cb585f50a329[m
+Author: Alexandre Barroso <abarroso@zonasul.com.br>
+Date:   Fri May 31 10:17:13 2019 -0300
+
+    Revert "teste de commit2"
+    
+    This reverts commit 34d99be780dac2d8b2afdbc178b1a632bcb3127c.
+
+[33mcommit 34d99be780dac2d8b2afdbc178b1a632bcb3127c[m
+Author: Alexandre Barroso <abarroso@zonasul.com.br>
+Date:   Fri May 31 10:17:13 2019 -0300
+
+    teste de commit2
+
+[33mcommit 7bc80f16b12b123bb15fdd6f8cbf8c0c74fccb8d[m
+Author: Alexandre Barroso <abarroso@zonasul.com.br>
+Date:   Thu May 30 13:40:24 2019 -0300
+
+    Teste stash com a feature
+
+[33mcommit 5b1d1e572ee849daad7648add375dccd071fd56b[m
+Author: Alexandre Barroso <abarroso@zonasul.com.br>
+Date:   Fri Mar 15 11:06:32 2019 -0300
+
+    teste
+
+[33mcommit f0295e9b914b4ed11b709e479024437ac49c5f48[m
+Author: Alexandre Barroso <abarroso@zonasul.com.br>
+Date:   Thu Mar 14 16:57:36 2019 -0300
+
+    novo método
+
+[33mcommit 9081d6198674d004818f95849d1c10ac7a1350d7[m
+Merge: a1e528a 139c5b3
+Author: Alexandre Barroso <abarroso@zonasul.com.br>
+Date:   Thu Feb 14 10:14:31 2019 -0200
+
+    Merge branch 'release/1.0.0' into develop
+
+[33mcommit a1e528ae01eaa912962a9ed1d949cf34a3b9c6e5[m
+Author: Rodrigo <rnpinto@zonasul.com.br>
+Date:   Thu Feb 14 10:01:57 2019 -0200
+
+    novo comit para testa
+
+[33mcommit 139c5b3dd3c933a0fd55671a36a2d5f0381a68da[m
+Merge: 715e59a 96e4aec
+Author: Rodrigo <rnpinto@zonasul.com.br>
+Date:   Thu Feb 14 09:56:30 2019 -0200
+
+    Merge branch 'feature/TarefaAbertaParaRodrigo' into develop
+
+[33mcommit 96e4aec69277f2a1412da0fa58a5a0f15a20674b[m
+Author: Rodrigo <rnpinto@zonasul.com.br>
+Date:   Thu Feb 14 09:55:59 2019 -0200
+
+    comite para teste
+
+[33mcommit 715e59a75ba3f9eea7853cc8aff966b076ba0a7a[m[33m ([m[1;31morigin/feature/TarefaAbertaParaRodrigo[m[33m, [m[1;32mfeature/TarefaAbertaParaRodrigo[m[33m)[m
+Author: Alexandre Barroso <abarroso@zonasul.com.br>
+Date:   Thu Feb 14 09:40:48 2019 -0200
+
+    Teste feature
+
+[33mcommit 334b7f83aa2cbc1a52ca9987059b0b57bf348f89[m
+Merge: fbabe59 2c1139e
+Author: Alexandre Barroso <abarroso@zonasul.com.br>
+Date:   Wed Feb 13 14:06:05 2019 -0200
+
+    Merge branch 'develop' into origin/develop
+
+[33mcommit 2c1139e00e67908fcface7564a905f4e65dd7c1b[m
+Merge: fbabe59 43b5158
+Author: Alexandre Barroso <abarroso@zonasul.com.br>
+Date:   Wed Feb 13 14:05:49 2019 -0200
+
+    Merge branch 'feature/tareafa02Stach' into develop
+
+[33mcommit 43b51586b3642744e3368a4e5fae0a4db1ada154[m[33m ([m[1;32mfeature/tareafa02Stach[m[33m)[m
+Author: Alexandre Barroso <abarroso@zonasul.com.br>
+Date:   Wed Feb 13 14:05:31 2019 -0200
+
+    método teste2
+
+[33mcommit fbabe5984344c6e1c3ae8aff27dba66f8848cd22[m
+Merge: 9fed4b3 ba82f85
+Author: Alexandre Barroso <abarroso@zonasul.com.br>
+Date:   Tue Feb 12 16:09:33 2019 -0200
+
+    Merge branch 'develop' into origin/develop
+
+[33mcommit ba82f85d69947e626ee0ed74712af7951fa187f2[m
+Merge: 9fed4b3 869ab81
+Author: Alexandre Barroso <abarroso@zonasul.com.br>
+Date:   Tue Feb 12 16:07:32 2019 -0200
+
+    Merge branch 'feature/tarefa01' into develop
+
+[33mcommit 869ab81e31ba7b6be0b6e3bb70b1ed4144463fbe[m[33m ([m[1;32mfeature/tarefa01[m[33m)[m
+Author: Alexandre Barroso <abarroso@zonasul.com.br>
+Date:   Tue Feb 12 16:06:59 2019 -0200
+
+    tarefao1 método listar teste
+
+[33mcommit 9fed4b30ff39921085b6e26479391bb4ea49bdea[m
+Merge: f57bc0e b9a4a01
+Author: Alexandre Barroso <abarroso@zonasul.com.br>
+Date:   Tue Feb 12 11:18:49 2019 -0200
+
+    Merge branch 'master' into develop
+
+[33mcommit f57bc0e78005bbeecb42d112d42b040017f5aeb4[m
+Merge: 26ef96d 038179c
+Author: Alexandre Barroso <abarroso@zonasul.com.br>
+Date:   Tue Feb 12 11:17:52 2019 -0200
+
+    Merge remote-tracking branch 'origin/master' into develop
+
+[33mcommit b9a4a01e18e257cfca1a23bc968ecf42749201e0[m
+Merge: 74a396f 3e5384f
+Author: Alexandre Barroso <abarroso@zonasul.com.br>
+Date:   Tue Feb 12 11:16:38 2019 -0200
+
+    Merge branch 'hotfix/1.0.0'
+
+[33mcommit 26ef96d004bb1626cc27775816050cb64dbc611d[m
+Merge: d77cf2e 3e5384f
+Author: Alexandre Barroso <abarroso@zonasul.com.br>
+Date:   Tue Feb 12 11:16:38 2019 -0200
+
+    Merge branch 'hotfix/1.0.0' into develop
+
+[33mcommit 74a396f1cc5af9069f7e1f26425d07513261cf6a[m
+Merge: 3a9a275 3e5384f
+Author: Alexandre Barroso <abarroso@zonasul.com.br>
+Date:   Tue Feb 12 11:16:16 2019 -0200
+
+    Merge branch 'hotfix/1.0.0'
+
+[33mcommit d77cf2e9e72e43799145c3caeed67be3188a8eee[m
+Merge: 0235e5d 3e5384f
+Author: Alexandre Barroso <abarroso@zonasul.com.br>
+Date:   Tue Feb 12 11:16:16 2019 -0200
+
+    Merge branch 'hotfix/1.0.0' into develop
+
+[33mcommit 3a9a275e09a82b35b589c3369f9bbcdc98c7f47d[m
+Merge: 038179c 3e5384f
+Author: Alexandre Barroso <abarroso@zonasul.com.br>
+Date:   Tue Feb 12 11:15:39 2019 -0200
+
+    Merge branch 'hotfix/1.0.0'
+
+[33mcommit 0235e5deee1530e5dc67aca360526a726fb9c011[m
+Merge: 081496b 3e5384f
+Author: Alexandre Barroso <abarroso@zonasul.com.br>
+Date:   Tue Feb 12 11:15:39 2019 -0200
+
+    Merge branch 'hotfix/1.0.0' into develop
+
+[33mcommit 038179c57242df5e2c6d76c0717f7d94e540160f[m
+Merge: e8c07b5 3e5384f
+Author: Alexandre Barroso <abarroso@zonasul.com.br>
+Date:   Tue Feb 12 11:13:40 2019 -0200
+
+    Merge branch 'hotfix/1.0.0'
+
+[33mcommit 081496bae02cff0f9fe2c9eb4de474005641877d[m
+Merge: e6dd9ef 3e5384f
+Author: Alexandre Barroso <abarroso@zonasul.com.br>
+Date:   Tue Feb 12 11:13:39 2019 -0200
+
+    Merge branch 'hotfix/1.0.0' into develop
+
+[33mcommit 3e5384f44487cd770fd9eb937d44632b4f12a8ed[m
+Author: Alexandre Barroso <abarroso@zonasul.com.br>
+Date:   Tue Feb 12 11:13:07 2019 -0200
+
+    ajuste método
+
+[33mcommit e8c07b568f1fca81a142c8d7c424b0f67d0ffdde[m
+Author: Alexandre Barroso <abarroso@zonasul.com.br>
+Date:   Tue Feb 12 10:48:26 2019 -0200
+
+    Revert "Revert "Revert "Revert "Merge branch 'release/1.0.0'""""
+    
+    This reverts commit 602c13797c047ad521a455917db084984d8dea48.
+
+[33mcommit 602c13797c047ad521a455917db084984d8dea48[m
+Author: Alexandre Barroso <abarroso@zonasul.com.br>
+Date:   Tue Feb 12 10:48:26 2019 -0200
+
+    Revert "Revert "Revert "Merge branch 'release/1.0.0'"""
+    
+    This reverts commit 3efc3b58aea53e4da08bfc26888e07ecaf9d7795.
+
+[33mcommit 3efc3b58aea53e4da08bfc26888e07ecaf9d7795[m
+Author: Alexandre Barroso <abarroso@zonasul.com.br>
+Date:   Tue Feb 12 10:48:26 2019 -0200
+
+    Revert "Revert "Merge branch 'release/1.0.0'""
+    
+    This reverts commit 37d4382ddb498e40ab3a80f707a04745e3c3b4a1.
+
+[33mcommit 37d4382ddb498e40ab3a80f707a04745e3c3b4a1[m
+Author: Alexandre Barroso <abarroso@zonasul.com.br>
+Date:   Tue Feb 12 10:48:26 2019 -0200
+
+    Revert "Merge branch 'release/1.0.0'"
+    
+    This reverts commit 8237e22459da1ac88d3f7d87da03a22658080c71.
+
+[33mcommit 8237e22459da1ac88d3f7d87da03a22658080c71[m
+Merge: 8d97842 e6dd9ef
+Author: Alexandre Barroso <abarroso@zonasul.com.br>
+Date:   Tue F
