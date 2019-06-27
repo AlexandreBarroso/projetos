@@ -62,11 +62,14 @@ namespace ContosoUniversity.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
+
             Instructor instructor = db.Instructors.Find(id);
+
             if (instructor == null)
             {
                 return HttpNotFound();
             }
+
             return View(instructor);
         }
 
