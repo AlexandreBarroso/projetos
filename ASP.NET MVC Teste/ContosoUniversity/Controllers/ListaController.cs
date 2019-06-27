@@ -113,7 +113,7 @@ namespace ContosoUniversity.Controllers
         {
             return View();
         }
-        public ActionResult TesteAmendFix1()
+        public ActionResult TesteAmendFix11)
         {
             return View();
         }
