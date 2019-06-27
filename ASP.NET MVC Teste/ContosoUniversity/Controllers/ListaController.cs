@@ -98,27 +98,8 @@ namespace ContosoUniversity.Controllers
         {
             return View();
         }
-            // teste stash
-            return View();
-        }
-
-        public ActionResult ListarTeste6()
-
-        {
-            return View();
-        }
-
-        public ActionResult ListarTeste7()
-        {
-            return View();
-        }
 
         public ActionResult ListarTeste8()
-        {
-            return View();
-        }
-
-        public ActionResult TesteHotfix()
         {
             return View();
         }
@@ -129,6 +110,10 @@ namespace ContosoUniversity.Controllers
         }
 
         public ActionResult TesteAmendFix()
+        {
+            return View();
+        }
+        public ActionResult TesteAmendFix1()
         {
             return View();
         }

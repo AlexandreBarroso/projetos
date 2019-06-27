@@ -192,6 +192,22 @@ namespace ContosoUniversity.Controllers
             }
             return RedirectToAction("Index");
         }
+
+        public ActionResult Excluir(int id)
+        {
+            try
+            {
+                Student estudante = db.Students.Find(id);
+                db.Students.Remove(estudante);
+                db.SaveChanges();
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+
+            return RedirectToAction("Index");
+        }
         protected override void Dispose(bool disposing)
         {
             if (disposing)
