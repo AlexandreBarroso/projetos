@@ -124,14 +124,12 @@ namespace ContosoUniversity.Controllers
             return View();
         }
         public ActionResult TesteAmendFix13()
-        {
-            ////Teste de conflito 
+        { 
             return View();
         }
 
         public ActionResult TesteAmendFix14()
         {
-            ////Teste de conflito 
             return View();
         }
     }
