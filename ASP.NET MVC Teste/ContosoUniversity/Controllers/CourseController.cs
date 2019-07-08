@@ -157,7 +157,7 @@ namespace ContosoUniversity.Controllers
         {
             return View();
         }
-
+        
         [HttpPost]
         public ActionResult UpdateCourseCredits(int? multiplier)
         {

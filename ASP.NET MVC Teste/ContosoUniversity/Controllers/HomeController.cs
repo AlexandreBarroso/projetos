@@ -15,6 +15,13 @@ namespace ContosoUniversity.Controllers
 
         public ActionResult Index()
         {
+            string[] teste =  { "Alexandre", "Marcelo" };
+
+            foreach (var item in teste)
+            {
+                ViewBag.Teste += item;
+            }
+            
             return View();
         }
 
