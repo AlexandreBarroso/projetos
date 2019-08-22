@@ -72,15 +72,5 @@ namespace ContosoUniversity.Controllers
             //Marcelo d2
             return View();
         }
-        public ActionResult ListarTeste7()
-        {
-            //27-03-2019
-            return View();
-        }
-
-        public ActionResult ListarTeste8()
-        {
-            return View();
-        }
     }
 }
