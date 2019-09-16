@@ -54,6 +54,7 @@
       <HintPath>..\..\..\..\..\..\ECommerce2.0\Fontes\ExternalLibrary\MarlinResize.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="netstandard, Version=2.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51" />
     <Reference Include="NetStandardHashLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\NetStandardHashLib.1.0.0\lib\netstandard2.0\NetStandardHashLib.dll</HintPath>
       <Private>True</Private>
