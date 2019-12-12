@@ -132,5 +132,10 @@ namespace ContosoUniversity.Controllers
         {
             return View();
         }
+
+        public ActionResult Hotifix12()
+        {
+            return View();
+        }
     }
 }
